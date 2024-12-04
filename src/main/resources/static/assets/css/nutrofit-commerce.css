@@ -1,0 +1,170 @@
+@media (max-width:1150px){
+    aside{
+        left :20rem;
+    }
+}
+
+.commerce>aside{
+    width: 200px;
+    padding: 1rem 0 2rem 1rem;
+    border-radius: 0;
+    border-right: 1px solid #d0d0d0;
+    margin-right: 3rem;
+}
+
+.commerce{
+    background-color: #F5F2EB;
+    font-weight: bold;
+    margin-top: 6rem;
+    padding: 3rem;
+    margin-left: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.commerce .title-category{
+    width: inherit;
+    border-radius: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #FE492325;
+}
+
+.commerce .category-menus{
+    display: flex;
+    height: 950px;
+    padding:0 1rem 0 0;
+}
+
+.categories {
+    margin-top: 2.5rem;
+}
+
+.big-category{
+    
+    position: absolute;
+    display: contents; 
+}
+
+.big-category span{
+    position: relative;
+    
+}
+
+.commerce .menus{
+    width: 80%;
+    padding : 2rem 0 2rem 0;
+}
+
+.selected-menu{
+    font-size: 30px;
+}
+
+.menu-description{
+    font-size: large;
+}
+
+#categoryCollapseMenu{
+    display: flex;
+    width: 15rem;
+}
+
+.commerce #categoryCollapseMenu>li{
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+.commerce .menu-special{
+    padding: 0 3rem 2rem 2rem;
+    
+}
+
+.commerce .menu-signature{
+    padding: 0 3rem 2rem 2rem;
+}
+
+.sub-category{
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-product {
+  display: flex;
+  flex-direction: column; /* 카드 내용을 세로로 정렬 */
+  justify-content: space-between; /* 위-아래 간격 균일하게 */
+  height: 100%; /* 부모 컨테이너에서 동일한 높이 적용 */
+}
+
+.product-name {
+  height: 40px;
+  margin:0;
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+  line-height: 1.5; /* 줄 간격 설정 */
+}
+
+.price-cart{
+  height: 40px;
+  display: flex;
+  align-items: center; /* 버튼 세로 정렬 */
+  justify-content: space-between; /* 가격과 버튼 간격 설정 */
+}
+
+.product-slider {
+  display: flex; /* 컨테이너가 수평 정렬을 지원하도록 */
+  align-items: stretch; /* 모든 카드 동일 높이로 */
+  gap: 10px; /* 카드 간격 설정 */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* 세로 정렬 */
+  justify-content: space-between;
+  height: 100%; /* 카드 전체 높이 균일화 */
+}
+
+.product-image{
+  max-width : 100%;
+  height : auto;
+  border-radius : 5px;
+}
+
+.portion-btn.active{
+    background-color: #fe4923;
+    color: white;
+    border-color: #fe4923;
+    opacity:1;
+}
+
+.select-and-add {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-add {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 120px;
+}
+
+.original-price {
+  color: #868e96;
+  font-size: 0.9em;
+  text-decoration: line-through;
+  margin-bottom: 0.2rem;
+}
+
+.discounted-price {
+  margin: 0;
+}
+
